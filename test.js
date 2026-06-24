@@ -5,7 +5,7 @@ const assert = require('assert');
 describe("Simple Calculations", () => {
 before(() => {
 	console.log( "This part executes once before all tests" );
-});
+});bhhb
 
 after(() => {
 	console.log( "This part executes once after all tests" );
