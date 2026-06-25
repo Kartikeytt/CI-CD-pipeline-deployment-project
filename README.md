@@ -4,9 +4,9 @@ This repository features a fully automated, single-file deployment solution for 
 
 ---
 
-## 📄 Automated Deployment Script (`deploy.sh`)
+## 📄 Automated Deployment 
 
-Save the entire block of code below into a file named `deploy.sh` on your EC2 instance or paste it directly inside your Jenkins pipeline script runner.
+Save the entire block of code below into a file named on your EC2 instance or paste it directly inside your Jenkins pipeline script runner.
 
 ```bash
 #!/bin/bash
