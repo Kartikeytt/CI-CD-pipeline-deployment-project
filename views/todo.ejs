@@ -11,7 +11,7 @@
                 padding: 0;
             }
 
-            h1 {
+            h1 {<br>
                 background-color: #4CAF50;
                 color: white;
                 margin: 0;
@@ -92,7 +92,7 @@
         <h1>Hello Junoon Batch 8 (Jenkins), Write your plan on Learning Jenkins</h1>
         <ul>
             <% todolist.forEach(function(todo, index) { %>
-            <li>
+            <li></br>
                 <a href="/todo/delete/<%= index %>" class="delete-btn">✘</a>
                 <a href="/todo/<%= index %>" class="edit-btn">✎</a>
                 <%- todo %>
@@ -106,6 +106,6 @@
                 <input type="text" name="newtodo" id="newtodo" autofocus />
                 <input type="submit" value="Add" />
             </p>
-        </form>
+        </form>  
     </body>
 </html>
